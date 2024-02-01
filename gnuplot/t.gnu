@@ -11,5 +11,5 @@ set boxwidth 1.7
 set style data histogram
 set style fill solid 1.0
 set multiplot layout 1,1
-plot "temp/tempt.txt" u 2:xtic(1) lc rgb "red" title "total routes", "temp/tempt.txt"  u 3:xtic(1) lc rgb "green" title "first town"
+plot "temp/tempt.txt" u 2:xtic(1) lc rgb "yellow" title "total routes", "temp/tempt.txt"  u 3:xtic(1) lc rgb "purple" title "first town"
 unset multiplot
