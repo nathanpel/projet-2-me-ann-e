@@ -7,6 +7,6 @@ set xlabel 'ID de trajet'
 set xtics scale 0
 set ylabel 'Distance(km)'
 set yrange [0:3000]
-set boxwidth 0.6
+set boxwidth 0.8
 set style fill solid
-plot "temp/templ.txt" u 2:xtic(1) w boxes lc rgb "blue" notitle
+plot "temp/templ.txt" u 2:xtic(1) w boxes lc rgb "green" notitle
