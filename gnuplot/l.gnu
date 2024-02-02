@@ -9,4 +9,4 @@ set ylabel 'Distance(km)'
 set yrange [0:3000]
 set boxwidth 0.8
 set style fill solid
-plot "temp/templ.txt" u 2:xtic(1) w boxes lc rgb "green" notitle
+plot "temp/l.csv" u 2:xtic(1) w boxes lc rgb "green" notitle
