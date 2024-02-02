@@ -11,4 +11,4 @@ unset ytic
 set y2tic rotate out
 set boxwidth 0.8
 set style fill solid
-plot "temp/d1.csv" u 1:xtic(2) w boxes lc rgb "purple" notitle
+plot "temp/d2.csv" u 1:xtic(2) w boxes lc rgb "purple" notitle
