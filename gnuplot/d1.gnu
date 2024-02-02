@@ -12,4 +12,4 @@ unset x2tic
 set y2tic rotate out
 set boxwidth 0.8
 set style fill solid
-plot "temp/temp11.txt" u 1:xtic(2) w boxes lc rgb "red" notitle
+plot "temp/d1.csv" u 1:xtic(2) w boxes lc rgb "red" notitle
